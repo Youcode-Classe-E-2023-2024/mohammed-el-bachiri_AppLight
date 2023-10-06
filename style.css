@@ -39,7 +39,7 @@ h6 {
 	padding-right: 0;
 	min-height: 50px;
 	line-height: 50px;
-	background: rgba(142, 30, 252, 0.63);
+	background: linear-gradient(to right, rgb(208, 128, 255), rgb(149, 107, 255));
 	z-index: 1030;
 }
 
@@ -106,7 +106,7 @@ h6 {
 .banner {
 	background: #7a60ff;
 	background: linear-gradient(to left, #7a60ff, #cd9ffa);
-	padding:100px 0px;
+	padding:122px 0px;
 	position:relative;
 }
 .banner::before {
@@ -210,9 +210,6 @@ h6 {
 	width: 80%;
 	margin: 0 auto;
 }
-.about {
-	padding-top: 110px;													 /* adding a padding to the top in about page */
-}
 .about-btn {
 	color: #8e1efc;
 	padding: 10px 40px;
@@ -286,9 +283,6 @@ h6 {
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
-.feature {
-	padding-top: 110px;													/* adding padding to the top in feature page */
 }
 .single-feature {
 	margin-bottom: 80px;
@@ -451,9 +445,6 @@ input {
 	background: linear-gradient(to left, #7a60ff, #cd9ffa);
 	cursor:pointer;
 }
-.contact {
-	padding-top: 110px; 												/* addint padding to the top in contact page */
-}
 .contact-info {
 	padding: 2rem 2rem 1rem;
 	border-radius: 8px;
@@ -501,8 +492,8 @@ input {
 	border-radius: 7px;
 }
 .footer-copy {
-	background: #ffffff;
-	color: #242424;
+	background: linear-gradient(to right, rgb(208, 128, 255), rgb(149, 107, 255));
+	color: white;
 	font-size: 13px;
 	text-align: center;
 	padding:15px 0px;
@@ -616,4 +607,7 @@ h3 {
 .footer-copy p {
 	font-size: 10px;
 }
+}
+.about, .feature, .contact {
+	padding-top: 110px;											 /* adding a padding to the top in about, features, contact pages */
 }
